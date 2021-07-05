@@ -118,7 +118,7 @@
             "WebhookUsername":"Player Join/Leave",
             "WebhookMessage":null,
             "WebhookEmbedTitle":"{0}",
-            "WebhookEmbedMessage":null
+            "WebhookEmbedMessage":null,
             "WebhookEmbedColorJoin":"",
             "WebhookEmbedColorLeave":"",
             "WebhookEmbedField1Name":null,
