@@ -1,6 +1,6 @@
 {
     "General":{
-        "Version":"1.0.0",
+        "Version":"0.0.0",
         "SaveInterval":10,
         "Register":{
             "LimitNames":false,
