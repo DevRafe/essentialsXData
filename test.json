@@ -6,7 +6,7 @@
         "Register":{
             "LimitNames":false,
             "AccountOverwrite":true,
-            "blockedSkinsIndex: []
+            "blockedSkinsIndex": []
         },
         "Death":{
             "KeptAllItemsOnDeath":false,
