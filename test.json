@@ -15,7 +15,8 @@
                 "ExampleItem1"
             ],
             "KeepAllLicenses":false,
-            "KeepAllPhones":false
+            "KeepAllPhones":false,
+            "RemoveBriefcase": false
         },
         "Warns":{
             "WarnsExpirationInDays":15,
