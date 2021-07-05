@@ -5,7 +5,8 @@
         "SaveInterval":10,
         "Register":{
             "LimitNames":false,
-            "AccountOverwrite":true
+            "AccountOverwrite":true,
+            "blockedSkinsIndex: []
         },
         "Death":{
             "KeptAllItemsOnDeath":false,
