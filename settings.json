@@ -12,7 +12,6 @@
       "Register":{
          "LimitNames":false,
          "AccountOverwrite":false,
-         //Add it like [1, 2, 3]
          "blockedSkinsIndex":[
             
          ]
