@@ -1,17 +1,18 @@
 {
    "General":{
       "Version":"1.0.0",
-      "SaveInterval":1,
+      "SaveInterval":5,
       "Crimes":{
          "DisableCrimes":false,
-         "RemovePenaltyFromCrime":true
+         "RemovePenaltyFromCrime": false
       },
       "Apartment":{
-         "DisableHacking":true
+         "DisableHacking": false
       },
       "Register":{
-         "LimitNames":true,
+         "LimitNames":false,
          "AccountOverwrite":false,
+         //Add it like [1, 2, 3]
          "blockedSkinsIndex":[
             
          ]
@@ -19,13 +20,13 @@
       "Death":{
          "KeptAllItemsOnDeath":false,
          "KeptItemsIds":[
-            2109002909
+            123456789
          ],
          "KeptItemsNames":[
-            "M4"
+            "ExampleBlacklistedItemName"
          ],
-         "KeepAllLicenses":true,
-         "KeepAllPhones":true,
+         "KeepAllLicenses":false,
+         "KeepAllPhones":false,
          "RemoveBriefcase":false
       },
       "Warns":{
@@ -34,10 +35,10 @@
       },
       "Levenshtein":{
          "Give":"Automatic",
-         "SpawnVehicle":"Automatic",
+         "SpawnVehicle":"Suggest",
          "Warp":"Suggest",
          "Kit":"Suggest",
-         "SetJob":"Suggest"
+         "SetJob":"Automatic"
       },
       "Messages":{
          "DiscordLink":"discord.gg/wEB2ZGU",
