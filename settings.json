@@ -1,293 +1,373 @@
 {
-  "General": {
-    "Version": "1.0.0",
-    "SaveInterval": 1,
-    "Crimes": {
-    "DisableCrimes": false,
-    "RemovePenaltyFromCrime": true
-    },
-   "Apartment": {
-"DisableHacking": true
-    },
-    "Register": {
-      "LimitNames": true,
-      "AccountOverwrite": false,
-      "blockedSkinsIndex": []
-    },
-    "Death": {
-      "KeptAllItemsOnDeath": false,
-      "KeptItemsIds": [
-        2109002909
-      ],
-      "KeptItemsNames": [
-        "M4"
-      ],
-      "KeepAllLicenses": true,
-      "KeepAllPhones": true,
-      "RemoveBriefcase": false
-    },
-    "Warns": {
-      "WarnsExpirationInDays": 15,
-      "DeleteExpiredWarns": false
-    },
-    "Levenshtein": {
-"Give": "Automatic",
-"SpawnVehicle": "Automatic",
-"Warp": "Suggest",
-"Kit": "Suggest",
-"SetJob": "Suggest"
-    },
-    "Messages": {
-      "DiscordLink": "discord.gg/wEB2ZGU",
-      "InfoColor": "#C83D1F",
-      "ArgColor": "#70C1B3",
-      "StaffChatFormat": "<color=#009900>[STAFF-CHAT]</color> {0}: {1}",
-      "SpyChatFormat": "<color=#e6e600>[SPY-CHAT]</color> {0}: {1}",
-      "BanMsgFormat": "{0} banned {1} with reason {2}",
-      "KickMsgFormat": "{0} kicked {1} with reason {2}"
-    },
-    "Reports": {
-      "IsEnabled": false,
-      "WebhookURL": "https://discord.com/api/webhooks/123456789/EXAMPLE DISCORD WEBHOOK",
-      "WebhookUsername": "Report System",
-      "WebhookMessage": null,
-      "WebhookEmbedTitle": null,
-      "WebhookEmbedMessage": null,
-      "WebhookEmbedColor": null,
-      "WebhookEmbedField1Name": "User",
-      "WebhookEmbedField1Value": "{0}",
-      "WebhookEmbedField2Name": "Reported",
-      "WebhookEmbedField2Value": "{1}",
-      "WebhookEmbedField3Name": "For",
-      "WebhookEmbedField3Value": "{2}"
-    }
-  },
-  "Chat": {
-    "Local": {
-      "LocalChatOverMessage": false,
-      "LocalChatInChat": {
-        "IsEnabled": false,
-        "LocalChatInChatFormat": ""
+   "General":{
+      "Version":"1.0.0",
+      "SaveInterval":1,
+      "Crimes":{
+         "DisableCrimes":false,
+         "RemovePenaltyFromCrime":true
+      },
+      "Apartment":{
+         "DisableHacking":true
+      },
+      "Register":{
+         "LimitNames":true,
+         "AccountOverwrite":false,
+         "blockedSkinsIndex":[
+            
+         ]
+      },
+      "Death":{
+         "KeptAllItemsOnDeath":false,
+         "KeptItemsIds":[
+            2109002909
+         ],
+         "KeptItemsNames":[
+            "M4"
+         ],
+         "KeepAllLicenses":true,
+         "KeepAllPhones":true,
+         "RemoveBriefcase":false
+      },
+      "Warns":{
+         "WarnsExpirationInDays":15,
+         "DeleteExpiredWarns":false
+      },
+      "Levenshtein":{
+         "Give":"Automatic",
+         "SpawnVehicle":"Automatic",
+         "Warp":"Suggest",
+         "Kit":"Suggest",
+         "SetJob":"Suggest"
+      },
+      "Messages":{
+         "DiscordLink":"discord.gg/wEB2ZGU",
+         "InfoColor":"#C83D1F",
+         "ArgColor":"#70C1B3",
+         "StaffChatFormat":"<color=#009900>[STAFF-CHAT]</color> {0}: {1}",
+         "SpyChatFormat":"<color=#e6e600>[SPY-CHAT]</color> {0}: {1}",
+         "BanMsgFormat":"{0} banned {1} with reason {2}",
+         "KickMsgFormat":"{0} kicked {1} with reason {2}"
+      },
+      "Reports":{
+         "IsEnabled":false,
+         "WebhookURL":"https://discord.com/api/webhooks/123456789/EXAMPLE DISCORD WEBHOOK",
+         "WebhookUsername":"Report System",
+         "WebhookMessage":null,
+         "WebhookEmbedTitle":null,
+         "WebhookEmbedMessage":null,
+         "WebhookEmbedColor":null,
+         "WebhookEmbedField1Name":"User",
+         "WebhookEmbedField1Value":"{0}",
+         "WebhookEmbedField2Name":"Reported",
+         "WebhookEmbedField2Value":"{1}",
+         "WebhookEmbedField3Name":"For",
+         "WebhookEmbedField3Value":"{2}"
       }
-    }
-  },
-  "Logs": {
-    "ChatLog": {
-      "IsEnabled": false,
-      "WebhookURL": "https://discord.com/api/webhooks/123456789/EXAMPLE DISCORD WEBHOOK",
-      "WebhookUsername": "Chat Logs",
-      "WebhookMessage": null,
-      "WebhookEmbedTitle": "{0}",
-      "WebhookEmbedMessage": "{1}",
-      "WebhookEmbedColor": null,
-      "WebhookEmbedField1Name": null,
-      "WebhookEmbedField1Value": null,
-      "WebhookEmbedField2Name": null,
-      "WebhookEmbedField2Value": null,
-      "WebhookEmbedField3Name": null,
-      "WebhookEmbedField3Value": null
-    },
-    "CommandLog": {
-      "IsEnabled": false,
-      "WebhookURL": "https://discord.com/api/webhooks/123456789/EXAMPLE DISCORD WEBHOOK",
-      "WebhookUsername": "Command Logs",
-      "WebhookMessage": null,
-      "WebhookEmbedTitle": "{0}",
-      "WebhookEmbedMessage": "{1}",
-      "WebhookEmbedColor": null,
-      "WebhookEmbedField1Name": null,
-      "WebhookEmbedField1Value": null,
-      "WebhookEmbedField2Name": null,
-      "WebhookEmbedField2Value": null,
-      "WebhookEmbedField3Name": null,
-      "WebhookEmbedField3Value": null
-    },
-    "MurderLog": {
-      "IsEnabled": false,
-      "WebhookURL": "https://discord.com/api/webhooks/123456789/EXAMPLE DISCORD WEBHOOK",
-      "WebhookUsername": "Murder Logs",
-      "WebhookMessage": null,
-      "WebhookEmbedTitle": null,
-      "WebhookEmbedMessage": null,
-      "WebhookEmbedColor": null,
-      "WebhookEmbedField1Name": "Player",
-      "WebhookEmbedField1Value": "{0}",
-      "WebhookEmbedField2Name": "Killed",
-      "WebhookEmbedField2Value": "{1}",
-      "WebhookEmbedField3Name": "Witness",
-      "WebhookEmbedField3Value": "{2}"
-    },
-    "CommitCrimeLog": {
-      "IsEnabled": false,
-      "WebhookURL": "https://discord.com/api/webhooks/123456789/EXAMPLE DISCORD WEBHOOK",
-      "WebhookUsername": "Crime Logs",
-      "WebhookMessage": null,
-      "WebhookEmbedTitle": null,
-      "WebhookEmbedMessage": null,
-      "WebhookEmbedColor": null,
-      "WebhookEmbedField1Name": "Player",
-      "WebhookEmbedField1Value": "{0}",
-      "WebhookEmbedField2Name": "Commited",
-      "WebhookEmbedField2Value": "{1}",
-      "WebhookEmbedField3Name": "Witness",
-      "WebhookEmbedField3Value": "{2}"
-    },
-    "PlayerJoinsLeaves": {
-      "IsEnabled": false,
-      "WebhookURL": "https://discord.com/api/webhooks/123456789/EXAMPLE DISCORD WEBHOOK",
-      "WebhookUsername": "Player Join/Leave",
-      "WebhookMessage": null,
-      "WebhookEmbedTitle": "{0}",
-      "WebhookEmbedMessage": null,
-      "WebhookEmbedColor": null,
-      "WebhookEmbedField1Name": null,
-      "WebhookEmbedField1Value": null,
-      "WebhookEmbedField2Name": null,
-      "WebhookEmbedField2Value": null,
-      "WebhookEmbedField3Name": null,
-      "WebhookEmbedField3Value": null
-    }
-  },
-  "Commands": [
-{
-"CommandName": "Vanish",
-"Commands": ["vanish", "va"],
-"Disabled": false
-},
-{
-"CommandName": "Reload",
-"Commands": ["reload", "esx-reload"],
-"Disabled": false
-},
-{
-"CommandName": "Mute",
-"Commands": ["mute"],
-"Disabled": false
-},
-{
-"CommandName": "Heal",
-"Commands": ["Heal"],
-"Disabled": false
-},
-{
-"CommandName": "Feed",
-"Commands": ["feed"],
-"Disabled": false
-},
-{
-"CommandName": "ClearWanted",
-"Commands": ["clearwanted", "cw"],
-"Disabled": false
-},
-{
-"CommandName": "GodMode",
-"Commands": ["gm", "god", "godmode"],
-"Disabled": false
-},
-{
-"CommandName": "SetJob",
-"Commands": ["sj", "setjob"],
-"Disabled": false
-},
-{
-"CommandName": "Promote",
-"Commands": ["promote", "rankup"],
-"Disabled": false
-},
-{
-"CommandName": "RemoveJob",
-"Commands": ["rj", "removejob"],
-"Disabled": false
-},
-{
-"CommandName": "Arrest",
-"Commands": ["arrest", "cuff", "restrain"],
-"Disabled": false
-},
-{
-"CommandName": "Knockout",
-"Commands": ["ko", "knockout"],
-"Disabled": false
-},
-{
-"CommandName": "Launch",
-"Commands": ["launch"],
-"Disabled": false
-},
-{
-"CommandName": "Slap",
-"Commands": ["slap"],
-"Disabled": false
-},
-{
-"CommandName": "Give",
-"Commands": ["give", "Give"],
-"Disabled": false
-},
-{
-"CommandName": "Free",
-"Commands": ["free", "uncuff"],
-"Disabled": false
-},
-{
-"CommandName": "GiveAmmo",
-"Commands": ["ga", "giveammo"],
-"Disabled": false
-},
-{
-"CommandName": "StaffChat",
-"Commands": ["sc", "staffchat"],
-"Disabled": false
-},
-{
-"CommandName": "SpyChat",
-"Commands": ["spy", "spychat"],
-"Disabled": false
-},
-{
-"CommandName": "Ban",
-"Commands": ["ban"],
-"Disabled": false
-},
-{
-"CommandName": "Kick",
-"Commands": ["kick"],
-"Disabled": false
-},
-{
-"CommandName": "Jail",
-"Commands": ["jail"],
-"Disabled": false
-},
-{
-"CommandName": "Discord",
-"Commands": ["discord", "dc"],
-"Disabled": false
-},
-{
-"CommandName": "SpawnVehicle",
-"Commands": ["sv", "spawnvehicle"],
-"Disabled": false
-},
-{
-"CommandName": "LockVehicle",
-"Commands": ["lv", "lockvehicle"],
-"Disabled": false
-},
-{
-"CommandName": "RepairVehicle",
-"Commands": ["rv", "repairvehicle"],
-"Disabled": false
-},
-{
-"CommandName": "TeleportHere",
-"Commands": ["tph", "teleporthere"],
-"Disabled": false
-},
-{
-"CommandName": "Teleport",
-"Commands": ["tp", "teleport"],
-"Disabled": false
-}
-]
+   },
+   "Chat":{
+      "Local":{
+         "LocalChatOverMessage":false,
+         "LocalChatInChat":{
+            "IsEnabled":false,
+            "LocalChatInChatFormat":""
+         }
+      }
+   },
+   "Logs":{
+      "ChatLog":{
+         "IsEnabled":false,
+         "WebhookURL":"https://discord.com/api/webhooks/123456789/EXAMPLE DISCORD WEBHOOK",
+         "WebhookUsername":"Chat Logs",
+         "WebhookMessage":null,
+         "WebhookEmbedTitle":"{0}",
+         "WebhookEmbedMessage":"{1}",
+         "WebhookEmbedColor":null,
+         "WebhookEmbedField1Name":null,
+         "WebhookEmbedField1Value":null,
+         "WebhookEmbedField2Name":null,
+         "WebhookEmbedField2Value":null,
+         "WebhookEmbedField3Name":null,
+         "WebhookEmbedField3Value":null
+      },
+      "CommandLog":{
+         "IsEnabled":false,
+         "WebhookURL":"https://discord.com/api/webhooks/123456789/EXAMPLE DISCORD WEBHOOK",
+         "WebhookUsername":"Command Logs",
+         "WebhookMessage":null,
+         "WebhookEmbedTitle":"{0}",
+         "WebhookEmbedMessage":"{1}",
+         "WebhookEmbedColor":null,
+         "WebhookEmbedField1Name":null,
+         "WebhookEmbedField1Value":null,
+         "WebhookEmbedField2Name":null,
+         "WebhookEmbedField2Value":null,
+         "WebhookEmbedField3Name":null,
+         "WebhookEmbedField3Value":null
+      },
+      "MurderLog":{
+         "IsEnabled":false,
+         "WebhookURL":"https://discord.com/api/webhooks/123456789/EXAMPLE DISCORD WEBHOOK",
+         "WebhookUsername":"Murder Logs",
+         "WebhookMessage":null,
+         "WebhookEmbedTitle":null,
+         "WebhookEmbedMessage":null,
+         "WebhookEmbedColor":null,
+         "WebhookEmbedField1Name":"Player",
+         "WebhookEmbedField1Value":"{0}",
+         "WebhookEmbedField2Name":"Killed",
+         "WebhookEmbedField2Value":"{1}",
+         "WebhookEmbedField3Name":"Witness",
+         "WebhookEmbedField3Value":"{2}"
+      },
+      "CommitCrimeLog":{
+         "IsEnabled":false,
+         "WebhookURL":"https://discord.com/api/webhooks/123456789/EXAMPLE DISCORD WEBHOOK",
+         "WebhookUsername":"Crime Logs",
+         "WebhookMessage":null,
+         "WebhookEmbedTitle":null,
+         "WebhookEmbedMessage":null,
+         "WebhookEmbedColor":null,
+         "WebhookEmbedField1Name":"Player",
+         "WebhookEmbedField1Value":"{0}",
+         "WebhookEmbedField2Name":"Commited",
+         "WebhookEmbedField2Value":"{1}",
+         "WebhookEmbedField3Name":"Witness",
+         "WebhookEmbedField3Value":"{2}"
+      },
+      "PlayerJoinsLeaves":{
+         "IsEnabled":false,
+         "WebhookURL":"https://discord.com/api/webhooks/123456789/EXAMPLE DISCORD WEBHOOK",
+         "WebhookUsername":"Player Join/Leave",
+         "WebhookMessage":null,
+         "WebhookEmbedTitle":"{0}",
+         "WebhookEmbedMessage":null,
+         "WebhookEmbedColor":null,
+         "WebhookEmbedField1Name":null,
+         "WebhookEmbedField1Value":null,
+         "WebhookEmbedField2Name":null,
+         "WebhookEmbedField2Value":null,
+         "WebhookEmbedField3Name":null,
+         "WebhookEmbedField3Value":null
+      }
+   },
+   "Commands":[
+      {
+         "CommandName":"Vanish",
+         "Commands":[
+            "vanish",
+            "va"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"Reload",
+         "Commands":[
+            "reload",
+            "esx-reload"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"Mute",
+         "Commands":[
+            "mute"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"Heal",
+         "Commands":[
+            "Heal"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"Feed",
+         "Commands":[
+            "feed"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"ClearWanted",
+         "Commands":[
+            "clearwanted",
+            "cw"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"GodMode",
+         "Commands":[
+            "gm",
+            "god",
+            "godmode"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"SetJob",
+         "Commands":[
+            "sj",
+            "setjob"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"Promote",
+         "Commands":[
+            "promote",
+            "rankup"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"RemoveJob",
+         "Commands":[
+            "rj",
+            "removejob"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"Arrest",
+         "Commands":[
+            "arrest",
+            "cuff",
+            "restrain"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"Knockout",
+         "Commands":[
+            "ko",
+            "knockout"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"Launch",
+         "Commands":[
+            "launch"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"Slap",
+         "Commands":[
+            "slap"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"Give",
+         "Commands":[
+            "give",
+            "Give"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"Free",
+         "Commands":[
+            "free",
+            "uncuff"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"GiveAmmo",
+         "Commands":[
+            "ga",
+            "giveammo"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"StaffChat",
+         "Commands":[
+            "sc",
+            "staffchat"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"SpyChat",
+         "Commands":[
+            "spy",
+            "spychat"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"Ban",
+         "Commands":[
+            "ban"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"Kick",
+         "Commands":[
+            "kick"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"Jail",
+         "Commands":[
+            "jail"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"Discord",
+         "Commands":[
+            "discord",
+            "dc"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"SpawnVehicle",
+         "Commands":[
+            "sv",
+            "spawnvehicle"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"LockVehicle",
+         "Commands":[
+            "lv",
+            "lockvehicle"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"RepairVehicle",
+         "Commands":[
+            "rv",
+            "repairvehicle"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"TeleportHere",
+         "Commands":[
+            "tph",
+            "teleporthere"
+         ],
+         "Disabled":false
+      },
+      {
+         "CommandName":"Teleport",
+         "Commands":[
+            "tp",
+            "teleport"
+         ],
+         "Disabled":false
+      }
+   ]
 }
