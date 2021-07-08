@@ -45,8 +45,9 @@
          "ArgColor":"#70C1B3",
          "StaffChatFormat":"<color=#009900>[STAFF-CHAT]</color> {0}: {1}",
          "SpyChatFormat":"<color=#e6e600>[SPY-CHAT]</color> {0}: {1}",
-         "BanMsgFormat":"{0} banned {1} with reason {2}",
-         "KickMsgFormat":"{0} kicked {1} with reason {2}"
+         "BanMsgFormat": "{0} banned {1} with reason {2}",
+         "TempBanMsgFormat": "{0} banned {1} with reason {2} for {3}d, {4}h, {5}m",
+         "KickMsgFormat": "{0} kicked {1} with reason {2}"
       },
       "Reports":{
          "IsEnabled":false,
@@ -366,6 +367,14 @@
          "Commands":[
             "tp",
             "teleport"
+         ],
+         "Disabled":false
+      },
+            {
+         "CommandName":"TempBan",
+         "Commands":[
+            "tb",
+            "tempban"
          ],
          "Disabled":false
       }
